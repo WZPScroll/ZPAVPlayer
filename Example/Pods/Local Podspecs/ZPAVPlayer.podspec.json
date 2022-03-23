@@ -1,7 +1,7 @@
 {
   "name": "ZPAVPlayer",
-  "version": "0.1.0",
-  "summary": "A short description of ZPAVPlayer.",
+  "version": "0.0.1",
+  "summary": "视频播放器可全屏",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WZPScroll/ZPAVPlayer",
   "license": {
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/WZPScroll/ZPAVPlayer.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZPAVPlayer/Classes/**/*"
+  "source_files": "ZPAVPlayer/Classes/**/*",
+  "resource_bundles": {
+    "ZPAVPlayer": [
+      "ZPAVPlayer/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

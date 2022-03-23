@@ -1,9 +1,11 @@
-use_frameworks!
+
 
 platform :ios, '9.0'
 
 target 'ZPAVPlayer_Example' do
   pod 'ZPAVPlayer', :path => '../'
+pod 'Masonry'
+
 
   target 'ZPAVPlayer_Tests' do
     inherit! :search_paths

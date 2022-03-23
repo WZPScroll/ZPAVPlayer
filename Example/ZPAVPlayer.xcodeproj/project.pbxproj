@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51C154EBC001FBDB40742DA7 /* Pods_ZPAVPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7BCA13194B80256BC7B4D4 /* Pods_ZPAVPlayer_Example.framework */; };
+		09016A6A27EB0711001C5DD6 /* ZPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09016A6927EB0711001C5DD6 /* ZPTestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		871AE279307DF2BD508DF1A9 /* Pods_ZPAVPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36416174AB2E2147E0B88C8 /* Pods_ZPAVPlayer_Tests.framework */; };
+		7BF87C0F3497AE3C200D457D /* libPods-ZPAVPlayer_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02989D02A0B500B1D69D42D1 /* libPods-ZPAVPlayer_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B2F0D792F8987619BAD0BCE0 /* libPods-ZPAVPlayer_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BED66EA32968FB6A2F8CE4 /* libPods-ZPAVPlayer_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02989D02A0B500B1D69D42D1 /* libPods-ZPAVPlayer_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPAVPlayer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09016A6827EB0711001C5DD6 /* ZPTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPTestViewController.h; sourceTree = "<group>"; };
+		09016A6927EB0711001C5DD6 /* ZPTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPTestViewController.m; sourceTree = "<group>"; };
 		109664431584A3E6E91288D9 /* Pods-ZPAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		116E9404492E2E69F5EF12C6 /* ZPAVPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPAVPlayer.podspec; path = ../ZPAVPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4409CDD699AA87717FB213B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -65,8 +69,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1DF9255B9D27CFD50363A5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A23E44FA838890943C6A6723 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B36416174AB2E2147E0B88C8 /* Pods_ZPAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPAVPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA7BCA13194B80256BC7B4D4 /* Pods_ZPAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPAVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BED66EA32968FB6A2F8CE4 /* libPods-ZPAVPlayer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPAVPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				51C154EBC001FBDB40742DA7 /* Pods_ZPAVPlayer_Example.framework in Frameworks */,
+				B2F0D792F8987619BAD0BCE0 /* libPods-ZPAVPlayer_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				871AE279307DF2BD508DF1A9 /* Pods_ZPAVPlayer_Tests.framework in Frameworks */,
+				7BF87C0F3497AE3C200D457D /* libPods-ZPAVPlayer_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BA7BCA13194B80256BC7B4D4 /* Pods_ZPAVPlayer_Example.framework */,
-				B36416174AB2E2147E0B88C8 /* Pods_ZPAVPlayer_Tests.framework */,
+				D7BED66EA32968FB6A2F8CE4 /* libPods-ZPAVPlayer_Example.a */,
+				02989D02A0B500B1D69D42D1 /* libPods-ZPAVPlayer_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZPViewController.h */,
 				6003F5A6195388D20070C39A /* ZPViewController.m */,
+				09016A6827EB0711001C5DD6 /* ZPTestViewController.h */,
+				09016A6927EB0711001C5DD6 /* ZPTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -207,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				17AFF9B2A28A003088A70BAB /* [CP] Embed Pods Frameworks */,
+				19821043AD46CCCAA7B812E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = WZPScroll;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Y3537VK2KL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,22 +303,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17AFF9B2A28A003088A70BAB /* [CP] Embed Pods Frameworks */ = {
+		19821043AD46CCCAA7B812E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZPAVPlayer/ZPAVPlayer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZPAVPlayer/ZPAVPlayer.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZPAVPlayer.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZPAVPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DAB5B3BA19E548EC4613422 /* [CP] Check Pods Manifest.lock */ = {
@@ -366,6 +374,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZPViewController.m in Sources */,
+				09016A6A27EB0711001C5DD6 /* ZPTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +503,7 @@
 			baseConfigurationReference = 59BA599F698A2F12B2E38E2A /* Pods-ZPAVPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3537VK2KL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPAVPlayer/ZPAVPlayer-Prefix.pch";
 				INFOPLIST_FILE = "ZPAVPlayer/ZPAVPlayer-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = 74B9AA602D5A1B4EFA98D9E5 /* Pods-ZPAVPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3537VK2KL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPAVPlayer/ZPAVPlayer-Prefix.pch";
 				INFOPLIST_FILE = "ZPAVPlayer/ZPAVPlayer-Info.plist";

@@ -7,12 +7,21 @@
 //
 
 #import "ZPAppDelegate.h"
+#import "ZPViewController.h"
 
 @implementation ZPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor blackColor];
+    UINavigationController * navVC = [[UINavigationController alloc] initWithRootViewController:[ZPViewController new]];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
+
+
+
     return YES;
 }
 

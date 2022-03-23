@@ -7,28 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C4990514D76C0FCACE799612EC927CE /* Pods-ZPAVPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C10759F234834E619463ED1533F1E /* Pods-ZPAVPlayer_Tests-dummy.m */; };
-		248B4F21C44D3871A3F9F560A264E92C /* ZPAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18FE6F035BEFF714F29A4F75A66D09 /* ZPAVPlayer-dummy.m */; };
-		358D7F562DE016C6D63B954BC517A00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3B5BB398A5C7BD3044714A91DF1D7BE4 /* ZPAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F76C63AE46E33494312575625FDAE1 /* ZPAVPlayer.m */; };
-		902236CF1F2138D322DBAA2356D877CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9133CCA55433163BE50D1557A6F0AEFB /* ZPAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5D4188F0E469357023239335C8C05D /* ZPAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9FF02723DDC12AC16BDDD72FF05E809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AFE1F4F39616206BABB5BAA93701F142 /* Pods-ZPAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED6B1CF5CF7F3B71C76F517E7094FA /* Pods-ZPAVPlayer_Example-dummy.m */; };
-		BCE545F7253EA872D1274FB1640BDD9C /* ZPAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD392AB4755E82B6F9E1E9257A107D0 /* ZPAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD97F3AACA44E6785E28111F77FC6558 /* Pods-ZPAVPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F1CCB3A5B905C30ED343B3C7ED56A4 /* Pods-ZPAVPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF37EBCD1E466D546C8799D0451DB157 /* Pods-ZPAVPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B806B0E8CDEA5FFEE265E7CB7CB2559 /* Pods-ZPAVPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */; };
+		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E25579B493C42B5B401582BE50A9932 /* ZPImageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AC0644F3A402F03649E5357A34DB08 /* ZPImageBtn.m */; };
+		170D0E99BF0E8833702DDD84649A40CE /* full_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425E4CE4F5279B5509A9143DD24CE1FA /* full_icon@2x.png */; };
+		1CA7CB10086DD4AF6CDE45D6C425AB76 /* ZPVideoErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109E1F61FE68D616F9C99B2295E174BB /* ZPVideoErrorView.m */; };
+		2CFE863636F2A3EC9448D36E4B8CD2A3 /* ZPVideoErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B7F5C79DF4213A48B240D850B7469A /* ZPVideoErrorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		350CA1B21F4F24E5E1B1584044643A9E /* ZPVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D72A094525DD061ECAB6203D710BFAD1 /* ZPVideoPlayerView.m */; };
+		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37AD1A92C748998F7E75E2D83DB8AC61 /* ZPVideoController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F916A150BBE512F1BAE9547E686076 /* ZPVideoController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */; };
+		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F771066D0834DC85D83ACF3D6287730 /* full_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC62708A82806547E3185BE7A2861FE1 /* full_icon@3x.png */; };
+		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		438A08D6F8DD528CAF5F73580806ABB4 /* Pods-ZPAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407972C47407DCF152C75CF865661D9B /* Pods-ZPAVPlayer_Example-dummy.m */; };
+		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */; };
+		47E351C4EA28500600ADFE76CF3F5E4A /* ZPAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E31275EDC5935AA77D307CD1AF11B2E /* ZPAVPlayer-dummy.m */; };
+		5B872ED6A9DC446C5464AC1E9C580593 /* ZPVideoPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A071212015A1DB0BF0A37A8C7E319389 /* ZPVideoPlayerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */; };
+		61B909F59EB90D5D126D2F896567D98F /* slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E26946A0FB3AEFD9EE3E2EDE5742DB /* slider@3x.png */; };
+		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70F75911AFB2EB06AA825921022F0AE3 /* play_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B30DB9C106E4F3F2654D8A4E20758 /* play_icon@2x.png */; };
+		7A66421C4CC2054F56A92AB7C58D76B1 /* play_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43101C63A35EC5A1FA2189C96A4AA196 /* play_icon@3x.png */; };
+		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */; };
+		85895B649DCF09D87DAEC6C6E3E7B79E /* small_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA762063BDC54B39476C0B76F73B069B /* small_icon@2x.png */; };
+		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */; };
+		8B462463D6A2E446907EF92517B41055 /* ZPVideoController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5BC5505E70826B9628580BC7E15207 /* ZPVideoController2.m */; };
+		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */; };
+		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */; };
+		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EEDAEB358DC3ABFCB159023E6AE967F /* videoErrorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3249D485ED8DDCFF1D2DCEDE4042C7 /* videoErrorIcon@2x.png */; };
+		A174CACC3D55C47E06A7EAB96BCA678E /* ZPVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124EBB65510513EC89FE4F86EF132E30 /* ZPVideoController.m */; };
+		A34A0553B2C11F5B0985C51371F20235 /* videoErrorIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F06007C1DF8AD2269DDC3FEACFE0791 /* videoErrorIcon@3x.png */; };
+		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF4322E3BD7F62023DB1246E8BDDF6A4 /* movie_return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41E86BA30327FF229597F0F17EC687D /* movie_return@3x.png */; };
+		C6D5903FF3C9A9BBC961600CC2C6800A /* stop_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EAFB7B6EF8181A1ADB80BD7BA27EAED /* stop_icon@3x.png */; };
+		C8C5493373E40BAEF48C26D9737360EF /* ZPVideoController2.h in Headers */ = {isa = PBXBuildFile; fileRef = B873D116A2EDB8344A18DC58CDC313FA /* ZPVideoController2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */; };
+		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D79996859D41821C907651FC11AB5675 /* small_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DBE74F7F595EAE7BB795F772BDC54C /* small_icon@3x.png */; };
+		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB1A83AF8D2B14480E44050B5089BAFA /* stop_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F08501B1D58E82882B98208096BFC98 /* stop_icon@2x.png */; };
+		DB8A4D38F8C5DA9077F88E45C0546AE1 /* ZPImageBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEB7A98644F276C87DDB92EC40944E3 /* ZPImageBtn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE415BEE3CEEB51A76E2B0186359B27F /* movie_return@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E76D83FD983E4389B79287A936A728C /* movie_return@2x.png */; };
+		E1238719CD9457D4D5F70A400F6CC0EA /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5383E5DC70B7265B223CA2F6A33B9D7 /* slider@2x.png */; };
+		EF9229E5D88C876A4434BC5AD77C079C /* Pods-ZPAVPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381070CD65C78B6D27E3FA6BF2BEABEA /* Pods-ZPAVPlayer_Tests-dummy.m */; };
+		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9063044DA4B0E2D277E6E0C587715F5D /* PBXContainerItemProxy */ = {
+		78DD529D8FEA1B5AEB9B17AE10CF5CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4812BF1E430244F5C1B168D60673AE04;
+			remoteInfo = "ZPAVPlayer-ZPAVPlayer";
+		};
+		A6B2E9A9E5A57A556B5FFA0722A9888B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		CCB0DF9AF1926ECC69B6E7863A83C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		CCE9790428449A0B613AE0C7BEB2928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3AC604F492BC121BEC4E3729DE83B893;
 			remoteInfo = ZPAVPlayer;
 		};
-		AD8CBF97A06A468B4796CF1A23DA0D0D /* PBXContainerItemProxy */ = {
+		EBB58F24D2D9415D1242046AB8B567C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,219 +101,359 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00095F00019E29ED1CF3CC4EE1EFAF77 /* ZPAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPAVPlayer-Info.plist"; sourceTree = "<group>"; };
-		0CFF0E7D1392D693AF73243B4292E842 /* ZPAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPAVPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0D4C10759F234834E619463ED1533F1E /* Pods-ZPAVPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPAVPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
-		0DB33B762AB1056AAD7E2998B0C41AE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1B806B0E8CDEA5FFEE265E7CB7CB2559 /* Pods-ZPAVPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPAVPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D18FE6F035BEFF714F29A4F75A66D09 /* ZPAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPAVPlayer-dummy.m"; sourceTree = "<group>"; };
-		4434F52C80FEB5C4D7677F8FC25BF260 /* Pods-ZPAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46730F1BE02E94448CE13387CD69432A /* Pods-ZPAVPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
-		52765E1FA79064BC2DD5AD9AE63D67F0 /* Pods-ZPAVPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		69F1CCB3A5B905C30ED343B3C7ED56A4 /* Pods-ZPAVPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPAVPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BD392AB4755E82B6F9E1E9257A107D0 /* ZPAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPAVPlayer-umbrella.h"; sourceTree = "<group>"; };
-		7EE22B56D0BF67C0E2567B1158652D5E /* Pods-ZPAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8346039CE408DA0C8B5E19861962842C /* Pods-ZPAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		909CEB2AEFB51F0293117D6BDC60A5F8 /* Pods-ZPAVPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPAVPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		96E2495862F01C3723DDA2BF9789BFEB /* ZPAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPAVPlayer.debug.xcconfig; sourceTree = "<group>"; };
-		9ACA029DB7055F466D0006CC499B8BCD /* Pods-ZPAVPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPAVPlayer_Example"; path = Pods_ZPAVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B454033A523B338D751F9E1343CE03F /* Pods-ZPAVPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPAVPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0EAFB7B6EF8181A1ADB80BD7BA27EAED /* stop_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stop_icon@3x.png"; path = "ZPAVPlayer/Assets/stop_icon@3x.png"; sourceTree = "<group>"; };
+		109E1F61FE68D616F9C99B2295E174BB /* ZPVideoErrorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPVideoErrorView.m; path = ZPAVPlayer/Classes/ZPVideoErrorView.m; sourceTree = "<group>"; };
+		124EBB65510513EC89FE4F86EF132E30 /* ZPVideoController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPVideoController.m; path = ZPAVPlayer/Classes/ZPVideoController.m; sourceTree = "<group>"; };
+		13996B69230DF62E4F55B2411E668917 /* Pods-ZPAVPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPAVPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13CB8B989F50D52BA0675E20FCC398B1 /* Pods-ZPAVPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPAVPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1E52BF275366582B66BC0B8224D46E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		381070CD65C78B6D27E3FA6BF2BEABEA /* Pods-ZPAVPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPAVPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E76D83FD983E4389B79287A936A728C /* movie_return@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "movie_return@2x.png"; path = "ZPAVPlayer/Assets/movie_return@2x.png"; sourceTree = "<group>"; };
+		407972C47407DCF152C75CF865661D9B /* Pods-ZPAVPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPAVPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		425E4CE4F5279B5509A9143DD24CE1FA /* full_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_icon@2x.png"; path = "ZPAVPlayer/Assets/full_icon@2x.png"; sourceTree = "<group>"; };
+		43101C63A35EC5A1FA2189C96A4AA196 /* play_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_icon@3x.png"; path = "ZPAVPlayer/Assets/play_icon@3x.png"; sourceTree = "<group>"; };
+		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		48546100C89D45C5A6C485A9283F0DDC /* Pods-ZPAVPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		4A87AE3966F456A5E26BE38BB7F2FD06 /* Pods-ZPAVPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPAVPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AC9D8B1ACD948C50008D5B893727395 /* Pods-ZPAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BEB7A98644F276C87DDB92EC40944E3 /* ZPImageBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPImageBtn.h; path = ZPAVPlayer/Classes/ZPImageBtn.h; sourceTree = "<group>"; };
+		4E31275EDC5935AA77D307CD1AF11B2E /* ZPAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPAVPlayer-dummy.m"; sourceTree = "<group>"; };
+		4F06007C1DF8AD2269DDC3FEACFE0791 /* videoErrorIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "videoErrorIcon@3x.png"; path = "ZPAVPlayer/Assets/videoErrorIcon@3x.png"; sourceTree = "<group>"; };
+		553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		5B3249D485ED8DDCFF1D2DCEDE4042C7 /* videoErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "videoErrorIcon@2x.png"; path = "ZPAVPlayer/Assets/videoErrorIcon@2x.png"; sourceTree = "<group>"; };
+		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6F08501B1D58E82882B98208096BFC98 /* stop_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stop_icon@2x.png"; path = "ZPAVPlayer/Assets/stop_icon@2x.png"; sourceTree = "<group>"; };
+		6F95854A665D6DA4A826CD7909D78D9E /* ZPAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPAVPlayer.release.xcconfig; sourceTree = "<group>"; };
+		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		73B7F5C79DF4213A48B240D850B7469A /* ZPVideoErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPVideoErrorView.h; path = ZPAVPlayer/Classes/ZPVideoErrorView.h; sourceTree = "<group>"; };
+		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8F9675CE3DDA890C856362F6BD65A505 /* ResourceBundle-ZPAVPlayer-ZPAVPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZPAVPlayer-ZPAVPlayer-Info.plist"; sourceTree = "<group>"; };
+		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		9ACA029DB7055F466D0006CC499B8BCD /* Pods-ZPAVPlayer_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ZPAVPlayer_Example"; path = "libPods-ZPAVPlayer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4A836E6FEFA2EEAF62DF3463426DD92 /* ZPAVPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPAVPlayer; path = ZPAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5E6BB8CE938D0E9D04B302A693EEBD9 /* ZPAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPAVPlayer.release.xcconfig; sourceTree = "<group>"; };
-		AE40BF31ED7D5819B54F0060791FDC07 /* Pods-ZPAVPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPAVPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0DF405CC84B0CF15E2ABA3190C59EF7 /* Pods-ZPAVPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB5D4188F0E469357023239335C8C05D /* ZPAVPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPAVPlayer.h; path = ZPAVPlayer/Classes/ZPAVPlayer.h; sourceTree = "<group>"; };
-		C82F69EFE221846D123B010DA282A5BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D549842BC0911418EB612E81C53A2AE9 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7F76C63AE46E33494312575625FDAE1 /* ZPAVPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPAVPlayer.m; path = ZPAVPlayer/Classes/ZPAVPlayer.m; sourceTree = "<group>"; };
-		DDED6B1CF5CF7F3B71C76F517E7094FA /* Pods-ZPAVPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPAVPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		E18D6A15C72FEB604391245DEC93875A /* ZPAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPAVPlayer-prefix.pch"; sourceTree = "<group>"; };
-		E759C3144D783B09AA6E0749BC5272C9 /* Pods-ZPAVPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Example-Info.plist"; sourceTree = "<group>"; };
-		E8E76455D0B8EA79D5A45B8AFA81F962 /* Pods-ZPAVPlayer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPAVPlayer_Tests"; path = Pods_ZPAVPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E8AA66798047C28045ECA76F24BF0E /* Pods-ZPAVPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPAVPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FF40BBE64F2CF2DA7D2E054677C59944 /* ZPAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPAVPlayer.modulemap; sourceTree = "<group>"; };
-		FFE713B933C322BEF8590B139584DCCC /* Pods-ZPAVPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPAVPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E4B30DB9C106E4F3F2654D8A4E20758 /* play_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "play_icon@2x.png"; path = "ZPAVPlayer/Assets/play_icon@2x.png"; sourceTree = "<group>"; };
+		A071212015A1DB0BF0A37A8C7E319389 /* ZPVideoPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPVideoPlayerView.h; path = ZPAVPlayer/Classes/ZPVideoPlayerView.h; sourceTree = "<group>"; };
+		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		A4A836E6FEFA2EEAF62DF3463426DD92 /* ZPAVPlayer */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZPAVPlayer; path = libZPAVPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E26946A0FB3AEFD9EE3E2EDE5742DB /* slider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider@3x.png"; path = "ZPAVPlayer/Assets/slider@3x.png"; sourceTree = "<group>"; };
+		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		A95D91AC079046C099892C4357240CA2 /* Pods-ZPAVPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPAVPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9AC0644F3A402F03649E5357A34DB08 /* ZPImageBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPImageBtn.m; path = ZPAVPlayer/Classes/ZPImageBtn.m; sourceTree = "<group>"; };
+		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		AD319F5FE0750C5F4CAA847BE55235A1 /* Pods-ZPAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0F916A150BBE512F1BAE9547E686076 /* ZPVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPVideoController.h; path = ZPAVPlayer/Classes/ZPVideoController.h; sourceTree = "<group>"; };
+		B41E86BA30327FF229597F0F17EC687D /* movie_return@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "movie_return@3x.png"; path = "ZPAVPlayer/Assets/movie_return@3x.png"; sourceTree = "<group>"; };
+		B7E9FBDA19FEF149AA0AE40B0B9916B2 /* Pods-ZPAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B873D116A2EDB8344A18DC58CDC313FA /* ZPVideoController2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPVideoController2.h; path = ZPAVPlayer/Classes/ZPVideoController2.h; sourceTree = "<group>"; };
+		BAFE495F7EF640F86FFC2C58F7D16760 /* ZPAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPAVPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C9DBE74F7F595EAE7BB795F772BDC54C /* small_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "small_icon@3x.png"; path = "ZPAVPlayer/Assets/small_icon@3x.png"; sourceTree = "<group>"; };
+		CA762063BDC54B39476C0B76F73B069B /* small_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "small_icon@2x.png"; path = "ZPAVPlayer/Assets/small_icon@2x.png"; sourceTree = "<group>"; };
+		CC62708A82806547E3185BE7A2861FE1 /* full_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_icon@3x.png"; path = "ZPAVPlayer/Assets/full_icon@3x.png"; sourceTree = "<group>"; };
+		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D72A094525DD061ECAB6203D710BFAD1 /* ZPVideoPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPVideoPlayerView.m; path = ZPAVPlayer/Classes/ZPVideoPlayerView.m; sourceTree = "<group>"; };
+		D9895054665A868F8720BD9066D6BE5A /* ZPAVPlayer-ZPAVPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZPAVPlayer-ZPAVPlayer"; path = ZPAVPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5BC5505E70826B9628580BC7E15207 /* ZPVideoController2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPVideoController2.m; path = ZPAVPlayer/Classes/ZPVideoController2.m; sourceTree = "<group>"; };
+		DF2F8C301395F8E21DB1B65EA9928DFA /* ZPAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPAVPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		E4F672D083B0853C34EAB7B987DBC607 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E819D916A9A51AA547B23195DA05C206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8E76455D0B8EA79D5A45B8AFA81F962 /* Pods-ZPAVPlayer_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ZPAVPlayer_Tests"; path = "libPods-ZPAVPlayer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31611A6F5EBE6FD8C0D432574FF8BFD /* ZPAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		F5383E5DC70B7265B223CA2F6A33B9D7 /* slider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider@2x.png"; path = "ZPAVPlayer/Assets/slider@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A1CDC70E6EA64B9B84D50624EFABD96 /* Frameworks */ = {
+		04F13E85A04E0257B3D6A34453573009 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358D7F562DE016C6D63B954BC517A00C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38DE1FF8AEC2B99599C736F1B9949486 /* Frameworks */ = {
+		186118A17E57B18B2523E9CCE6B12B75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FF02723DDC12AC16BDDD72FF05E809 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A83984BFC474F19982468659A87FFF4A /* Frameworks */ = {
+		71770592DED90346FA7089714F80C63A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902236CF1F2138D322DBAA2356D877CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907AD26A9F98C723CE396A46535B55F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C85677195251834FD17E41C6287FC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43A9755E49F27C92C3874E916B0B3DCB /* Support Files */ = {
+		0B91AD72407AF49F1274063792B3E6E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FF40BBE64F2CF2DA7D2E054677C59944 /* ZPAVPlayer.modulemap */,
-				2D18FE6F035BEFF714F29A4F75A66D09 /* ZPAVPlayer-dummy.m */,
-				00095F00019E29ED1CF3CC4EE1EFAF77 /* ZPAVPlayer-Info.plist */,
-				E18D6A15C72FEB604391245DEC93875A /* ZPAVPlayer-prefix.pch */,
-				7BD392AB4755E82B6F9E1E9257A107D0 /* ZPAVPlayer-umbrella.h */,
-				96E2495862F01C3723DDA2BF9789BFEB /* ZPAVPlayer.debug.xcconfig */,
-				A5E6BB8CE938D0E9D04B302A693EEBD9 /* ZPAVPlayer.release.xcconfig */,
+				E819D916A9A51AA547B23195DA05C206 /* LICENSE */,
+				2C1E52BF275366582B66BC0B8224D46E /* README.md */,
+				BAFE495F7EF640F86FFC2C58F7D16760 /* ZPAVPlayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */,
+				91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */,
+				72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */,
+				44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPAVPlayer";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		565F38E340EB73219751F3DA3B291938 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				63A6FDB6E51E4428CEE9B5372A64308C /* ZPAVPlayer */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5E7919367EDC1DB04CA145562E7E2779 /* Products */ = {
+		5FDE309E262786E678B7E9B3B15D7E33 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9ACA029DB7055F466D0006CC499B8BCD /* Pods-ZPAVPlayer_Example */,
-				E8E76455D0B8EA79D5A45B8AFA81F962 /* Pods-ZPAVPlayer_Tests */,
-				A4A836E6FEFA2EEAF62DF3463426DD92 /* ZPAVPlayer */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8171BB3635AB19573207515E0503AC19 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8701F8EC3602D76FA5796BB84B280935 /* Pods-ZPAVPlayer_Example */,
-				EB435203DA54C367FB132023806797AB /* Pods-ZPAVPlayer_Tests */,
+				F0151F7C21D7CA6D2F31AA362A69CCD1 /* Pods-ZPAVPlayer_Example */,
+				C01FF629D932B47E0217C2CC556B6673 /* Pods-ZPAVPlayer_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8701F8EC3602D76FA5796BB84B280935 /* Pods-ZPAVPlayer_Example */ = {
+		63A6FDB6E51E4428CEE9B5372A64308C /* ZPAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				9B454033A523B338D751F9E1343CE03F /* Pods-ZPAVPlayer_Example.modulemap */,
-				FFE713B933C322BEF8590B139584DCCC /* Pods-ZPAVPlayer_Example-acknowledgements.markdown */,
-				B0DF405CC84B0CF15E2ABA3190C59EF7 /* Pods-ZPAVPlayer_Example-acknowledgements.plist */,
-				DDED6B1CF5CF7F3B71C76F517E7094FA /* Pods-ZPAVPlayer_Example-dummy.m */,
-				F4E8AA66798047C28045ECA76F24BF0E /* Pods-ZPAVPlayer_Example-frameworks.sh */,
-				E759C3144D783B09AA6E0749BC5272C9 /* Pods-ZPAVPlayer_Example-Info.plist */,
-				69F1CCB3A5B905C30ED343B3C7ED56A4 /* Pods-ZPAVPlayer_Example-umbrella.h */,
-				7EE22B56D0BF67C0E2567B1158652D5E /* Pods-ZPAVPlayer_Example.debug.xcconfig */,
-				8346039CE408DA0C8B5E19861962842C /* Pods-ZPAVPlayer_Example.release.xcconfig */,
-			);
-			name = "Pods-ZPAVPlayer_Example";
-			path = "Target Support Files/Pods-ZPAVPlayer_Example";
-			sourceTree = "<group>";
-		};
-		A48B4A2C727D7B8ECB7AE8C98DC0D133 /* ZPAVPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				BB5D4188F0E469357023239335C8C05D /* ZPAVPlayer.h */,
-				D7F76C63AE46E33494312575625FDAE1 /* ZPAVPlayer.m */,
-				AE3ADD74E5F3DA8F96AAB11276DDD73B /* Pod */,
-				43A9755E49F27C92C3874E916B0B3DCB /* Support Files */,
+				425E4CE4F5279B5509A9143DD24CE1FA /* full_icon@2x.png */,
+				CC62708A82806547E3185BE7A2861FE1 /* full_icon@3x.png */,
+				3E76D83FD983E4389B79287A936A728C /* movie_return@2x.png */,
+				B41E86BA30327FF229597F0F17EC687D /* movie_return@3x.png */,
+				9E4B30DB9C106E4F3F2654D8A4E20758 /* play_icon@2x.png */,
+				43101C63A35EC5A1FA2189C96A4AA196 /* play_icon@3x.png */,
+				F5383E5DC70B7265B223CA2F6A33B9D7 /* slider@2x.png */,
+				A4E26946A0FB3AEFD9EE3E2EDE5742DB /* slider@3x.png */,
+				CA762063BDC54B39476C0B76F73B069B /* small_icon@2x.png */,
+				C9DBE74F7F595EAE7BB795F772BDC54C /* small_icon@3x.png */,
+				6F08501B1D58E82882B98208096BFC98 /* stop_icon@2x.png */,
+				0EAFB7B6EF8181A1ADB80BD7BA27EAED /* stop_icon@3x.png */,
+				5B3249D485ED8DDCFF1D2DCEDE4042C7 /* videoErrorIcon@2x.png */,
+				4F06007C1DF8AD2269DDC3FEACFE0791 /* videoErrorIcon@3x.png */,
+				4BEB7A98644F276C87DDB92EC40944E3 /* ZPImageBtn.h */,
+				A9AC0644F3A402F03649E5357A34DB08 /* ZPImageBtn.m */,
+				B0F916A150BBE512F1BAE9547E686076 /* ZPVideoController.h */,
+				124EBB65510513EC89FE4F86EF132E30 /* ZPVideoController.m */,
+				B873D116A2EDB8344A18DC58CDC313FA /* ZPVideoController2.h */,
+				DE5BC5505E70826B9628580BC7E15207 /* ZPVideoController2.m */,
+				73B7F5C79DF4213A48B240D850B7469A /* ZPVideoErrorView.h */,
+				109E1F61FE68D616F9C99B2295E174BB /* ZPVideoErrorView.m */,
+				A071212015A1DB0BF0A37A8C7E319389 /* ZPVideoPlayerView.h */,
+				D72A094525DD061ECAB6203D710BFAD1 /* ZPVideoPlayerView.m */,
+				0B91AD72407AF49F1274063792B3E6E6 /* Pod */,
+				87DDF12D512FB8EB12D7E19924851DF2 /* Support Files */,
 			);
 			name = ZPAVPlayer;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AE3ADD74E5F3DA8F96AAB11276DDD73B /* Pod */ = {
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C82F69EFE221846D123B010DA282A5BF /* LICENSE */,
-				0DB33B762AB1056AAD7E2998B0C41AE3 /* README.md */,
-				0CFF0E7D1392D693AF73243B4292E842 /* ZPAVPlayer.podspec */,
+				F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		CEB69CE62974F6ED289B6B0D658778AC /* Development Pods */ = {
+		78651ED677F88792056755A85BF9DEDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A48B4A2C727D7B8ECB7AE8C98DC0D133 /* ZPAVPlayer */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				9ACA029DB7055F466D0006CC499B8BCD /* Pods-ZPAVPlayer_Example */,
+				E8E76455D0B8EA79D5A45B8AFA81F962 /* Pods-ZPAVPlayer_Tests */,
+				A4A836E6FEFA2EEAF62DF3463426DD92 /* ZPAVPlayer */,
+				D9895054665A868F8720BD9066D6BE5A /* ZPAVPlayer-ZPAVPlayer */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87DDF12D512FB8EB12D7E19924851DF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9675CE3DDA890C856362F6BD65A505 /* ResourceBundle-ZPAVPlayer-ZPAVPlayer-Info.plist */,
+				4E31275EDC5935AA77D307CD1AF11B2E /* ZPAVPlayer-dummy.m */,
+				F31611A6F5EBE6FD8C0D432574FF8BFD /* ZPAVPlayer-prefix.pch */,
+				DF2F8C301395F8E21DB1B65EA9928DFA /* ZPAVPlayer.debug.xcconfig */,
+				6F95854A665D6DA4A826CD7909D78D9E /* ZPAVPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPAVPlayer";
+			sourceTree = "<group>";
+		};
+		C01FF629D932B47E0217C2CC556B6673 /* Pods-ZPAVPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13996B69230DF62E4F55B2411E668917 /* Pods-ZPAVPlayer_Tests-acknowledgements.markdown */,
+				48546100C89D45C5A6C485A9283F0DDC /* Pods-ZPAVPlayer_Tests-acknowledgements.plist */,
+				381070CD65C78B6D27E3FA6BF2BEABEA /* Pods-ZPAVPlayer_Tests-dummy.m */,
+				E4F672D083B0853C34EAB7B987DBC607 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */,
+				B7E9FBDA19FEF149AA0AE40B0B9916B2 /* Pods-ZPAVPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZPAVPlayer_Tests";
+			path = "Target Support Files/Pods-ZPAVPlayer_Tests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CEB69CE62974F6ED289B6B0D658778AC /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5E7919367EDC1DB04CA145562E7E2779 /* Products */,
-				8171BB3635AB19573207515E0503AC19 /* Targets Support Files */,
+				565F38E340EB73219751F3DA3B291938 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				78651ED677F88792056755A85BF9DEDE /* Products */,
+				5FDE309E262786E678B7E9B3B15D7E33 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB435203DA54C367FB132023806797AB /* Pods-ZPAVPlayer_Tests */ = {
+		F0151F7C21D7CA6D2F31AA362A69CCD1 /* Pods-ZPAVPlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
-				909CEB2AEFB51F0293117D6BDC60A5F8 /* Pods-ZPAVPlayer_Tests.modulemap */,
-				AE40BF31ED7D5819B54F0060791FDC07 /* Pods-ZPAVPlayer_Tests-acknowledgements.markdown */,
-				52765E1FA79064BC2DD5AD9AE63D67F0 /* Pods-ZPAVPlayer_Tests-acknowledgements.plist */,
-				0D4C10759F234834E619463ED1533F1E /* Pods-ZPAVPlayer_Tests-dummy.m */,
-				46730F1BE02E94448CE13387CD69432A /* Pods-ZPAVPlayer_Tests-Info.plist */,
-				1B806B0E8CDEA5FFEE265E7CB7CB2559 /* Pods-ZPAVPlayer_Tests-umbrella.h */,
-				D549842BC0911418EB612E81C53A2AE9 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */,
-				4434F52C80FEB5C4D7677F8FC25BF260 /* Pods-ZPAVPlayer_Tests.release.xcconfig */,
+				4A87AE3966F456A5E26BE38BB7F2FD06 /* Pods-ZPAVPlayer_Example-acknowledgements.markdown */,
+				A95D91AC079046C099892C4357240CA2 /* Pods-ZPAVPlayer_Example-acknowledgements.plist */,
+				407972C47407DCF152C75CF865661D9B /* Pods-ZPAVPlayer_Example-dummy.m */,
+				13CB8B989F50D52BA0675E20FCC398B1 /* Pods-ZPAVPlayer_Example-resources.sh */,
+				4AC9D8B1ACD948C50008D5B893727395 /* Pods-ZPAVPlayer_Example.debug.xcconfig */,
+				AD319F5FE0750C5F4CAA847BE55235A1 /* Pods-ZPAVPlayer_Example.release.xcconfig */,
 			);
-			name = "Pods-ZPAVPlayer_Tests";
-			path = "Target Support Files/Pods-ZPAVPlayer_Tests";
+			name = "Pods-ZPAVPlayer_Example";
+			path = "Target Support Files/Pods-ZPAVPlayer_Example";
+			sourceTree = "<group>";
+		};
+		F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */,
+				0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */,
+				411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */,
+				A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */,
+				D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */,
+				72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */,
+				935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */,
+				C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */,
+				AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */,
+				45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */,
+				5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */,
+				49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */,
+				7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */,
+				A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */,
+				2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */,
+				8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */,
+				6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */,
+				C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */,
+				AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */,
+				587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */,
+				370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */,
+				8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */,
+				553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */,
+				4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A07E5DF391A2E6202B686A4AE41439A8 /* Headers */ = {
+		293E63AB5C3EDBF171EB4F589E1E7585 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF37EBCD1E466D546C8799D0451DB157 /* Pods-ZPAVPlayer_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8DA4D8036DCD0AD57913AB943C2E49D /* Headers */ = {
+		2A3EBFC0646B1C38B42A258D68224E28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9133CCA55433163BE50D1557A6F0AEFB /* ZPAVPlayer.h in Headers */,
-				BCE545F7253EA872D1274FB1640BDD9C /* ZPAVPlayer-umbrella.h in Headers */,
+				D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */,
+				827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */,
+				42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */,
+				9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */,
+				01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */,
+				CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */,
+				CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */,
+				704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */,
+				F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */,
+				D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */,
+				ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */,
+				D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */,
+				3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC2CB2E5BAFC3724B6E6F6C73BE08467 /* Headers */ = {
+		4D1FFA6E80A4DB834A4EBC3A8ED20D4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD97F3AACA44E6785E28111F77FC6558 /* Pods-ZPAVPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9810E286A72EC0C3AD842B7EA8FA3B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8A4D38F8C5DA9077F88E45C0546AE1 /* ZPImageBtn.h in Headers */,
+				37AD1A92C748998F7E75E2D83DB8AC61 /* ZPVideoController.h in Headers */,
+				C8C5493373E40BAEF48C26D9737360EF /* ZPVideoController2.h in Headers */,
+				2CFE863636F2A3EC9448D36E4B8CD2A3 /* ZPVideoErrorView.h in Headers */,
+				5B872ED6A9DC446C5464AC1E9C580593 /* ZPVideoPlayerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,59 +462,93 @@
 /* Begin PBXNativeTarget section */
 		10C7E88FBBA8A032F3A06017E20087AB /* Pods-ZPAVPlayer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D61051EAAA735419CC83E6B620BA079 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Example" */;
+			buildConfigurationList = 718876DAD646A857EC42730CE3DAC992 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Example" */;
 			buildPhases = (
-				FC2CB2E5BAFC3724B6E6F6C73BE08467 /* Headers */,
-				220BB7DC017DA387461B7465A25F757C /* Sources */,
-				A83984BFC474F19982468659A87FFF4A /* Frameworks */,
-				8ECA8D300FACB064C1A33E7E79379641 /* Resources */,
+				4D1FFA6E80A4DB834A4EBC3A8ED20D4A /* Headers */,
+				C109CCAD609602BB1DE63FF4838E86E4 /* Sources */,
+				186118A17E57B18B2523E9CCE6B12B75 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2ED32E2C7E0D46BD1BE398D18E703810 /* PBXTargetDependency */,
+				824CB581EE46D744068F32CF52896558 /* PBXTargetDependency */,
+				C19AD41C1978AB1672D61F2E13184AA8 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPAVPlayer_Example";
-			productName = Pods_ZPAVPlayer_Example;
+			productName = "Pods-ZPAVPlayer_Example";
 			productReference = 9ACA029DB7055F466D0006CC499B8BCD /* Pods-ZPAVPlayer_Example */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 		3AC604F492BC121BEC4E3729DE83B893 /* ZPAVPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4FDFBE6DF158AAE3AFA4112FE436CD /* Build configuration list for PBXNativeTarget "ZPAVPlayer" */;
+			buildConfigurationList = CB3900E71A67E9C2AF5B75CF2600D018 /* Build configuration list for PBXNativeTarget "ZPAVPlayer" */;
 			buildPhases = (
-				D8DA4D8036DCD0AD57913AB943C2E49D /* Headers */,
-				002E634861C1922C5CE2A0D7BD33282D /* Sources */,
-				38DE1FF8AEC2B99599C736F1B9949486 /* Frameworks */,
-				AE5A48A81649542B52128212E1EF80B3 /* Resources */,
+				E9810E286A72EC0C3AD842B7EA8FA3B1 /* Headers */,
+				81819B969F863746E4F2DFF02C664CB7 /* Sources */,
+				9C85677195251834FD17E41C6287FC5E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				41EE5728FCADD012C486307EAB14E8D0 /* PBXTargetDependency */,
+				5A5E741DADE2860C2DFD78ADE5D37887 /* PBXTargetDependency */,
 			);
 			name = ZPAVPlayer;
 			productName = ZPAVPlayer;
 			productReference = A4A836E6FEFA2EEAF62DF3463426DD92 /* ZPAVPlayer */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
-		93F8C8BC6ED006A19D2D3A5789E8807C /* Pods-ZPAVPlayer_Tests */ = {
+		4812BF1E430244F5C1B168D60673AE04 /* ZPAVPlayer-ZPAVPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86C21FA09233F10A26F1D650A6C28E42 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Tests" */;
+			buildConfigurationList = C3A44943F011E64130B9DA1F8586BD29 /* Build configuration list for PBXNativeTarget "ZPAVPlayer-ZPAVPlayer" */;
 			buildPhases = (
-				A07E5DF391A2E6202B686A4AE41439A8 /* Headers */,
-				DBB9A068E00692AFC8BBE1153D71C529 /* Sources */,
-				0A1CDC70E6EA64B9B84D50624EFABD96 /* Frameworks */,
-				0D5AC63806BADB1967E6ADD92CCF1DE2 /* Resources */,
+				8B903ACB27FCFCC113A83A3C0758CBCB /* Sources */,
+				04F13E85A04E0257B3D6A34453573009 /* Frameworks */,
+				D18766853BE9EB93E928C451F5C31777 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6237D65179C70C34D6FD46D02531E09E /* PBXTargetDependency */,
+			);
+			name = "ZPAVPlayer-ZPAVPlayer";
+			productName = ZPAVPlayer;
+			productReference = D9895054665A868F8720BD9066D6BE5A /* ZPAVPlayer-ZPAVPlayer */;
+			productType = "com.apple.product-type.bundle";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6525CCFB5FEEBC36FDDE16A88CD85B83 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2A3EBFC0646B1C38B42A258D68224E28 /* Headers */,
+				375FDB568BC4E6D5E37AEEA9CD7D77A6 /* Sources */,
+				907AD26A9F98C723CE396A46535B55F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93F8C8BC6ED006A19D2D3A5789E8807C /* Pods-ZPAVPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D32DF2BE94CA1F078509CFFE7F17010 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Tests" */;
+			buildPhases = (
+				293E63AB5C3EDBF171EB4F589E1E7585 /* Headers */,
+				1DA0C0F2DFA001FD86778C0BD4B1B6C7 /* Sources */,
+				71770592DED90346FA7089714F80C63A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F5AA7C3ACCE2D7FC1D77C2BF9519FE /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPAVPlayer_Tests";
-			productName = Pods_ZPAVPlayer_Tests;
+			productName = "Pods-ZPAVPlayer_Tests";
 			productReference = E8E76455D0B8EA79D5A45B8AFA81F962 /* Pods-ZPAVPlayer_Tests */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -331,117 +568,177 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5E7919367EDC1DB04CA145562E7E2779 /* Products */;
+			productRefGroup = 78651ED677F88792056755A85BF9DEDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				10C7E88FBBA8A032F3A06017E20087AB /* Pods-ZPAVPlayer_Example */,
 				93F8C8BC6ED006A19D2D3A5789E8807C /* Pods-ZPAVPlayer_Tests */,
 				3AC604F492BC121BEC4E3729DE83B893 /* ZPAVPlayer */,
+				4812BF1E430244F5C1B168D60673AE04 /* ZPAVPlayer-ZPAVPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D5AC63806BADB1967E6ADD92CCF1DE2 /* Resources */ = {
+		D18766853BE9EB93E928C451F5C31777 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ECA8D300FACB064C1A33E7E79379641 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE5A48A81649542B52128212E1EF80B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				170D0E99BF0E8833702DDD84649A40CE /* full_icon@2x.png in Resources */,
+				3F771066D0834DC85D83ACF3D6287730 /* full_icon@3x.png in Resources */,
+				DE415BEE3CEEB51A76E2B0186359B27F /* movie_return@2x.png in Resources */,
+				AF4322E3BD7F62023DB1246E8BDDF6A4 /* movie_return@3x.png in Resources */,
+				70F75911AFB2EB06AA825921022F0AE3 /* play_icon@2x.png in Resources */,
+				7A66421C4CC2054F56A92AB7C58D76B1 /* play_icon@3x.png in Resources */,
+				E1238719CD9457D4D5F70A400F6CC0EA /* slider@2x.png in Resources */,
+				61B909F59EB90D5D126D2F896567D98F /* slider@3x.png in Resources */,
+				85895B649DCF09D87DAEC6C6E3E7B79E /* small_icon@2x.png in Resources */,
+				D79996859D41821C907651FC11AB5675 /* small_icon@3x.png in Resources */,
+				DB1A83AF8D2B14480E44050B5089BAFA /* stop_icon@2x.png in Resources */,
+				C6D5903FF3C9A9BBC961600CC2C6800A /* stop_icon@3x.png in Resources */,
+				9EEDAEB358DC3ABFCB159023E6AE967F /* videoErrorIcon@2x.png in Resources */,
+				A34A0553B2C11F5B0985C51371F20235 /* videoErrorIcon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		002E634861C1922C5CE2A0D7BD33282D /* Sources */ = {
+		1DA0C0F2DFA001FD86778C0BD4B1B6C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5BB398A5C7BD3044714A91DF1D7BE4 /* ZPAVPlayer.m in Sources */,
-				248B4F21C44D3871A3F9F560A264E92C /* ZPAVPlayer-dummy.m in Sources */,
+				EF9229E5D88C876A4434BC5AD77C079C /* Pods-ZPAVPlayer_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		220BB7DC017DA387461B7465A25F757C /* Sources */ = {
+		375FDB568BC4E6D5E37AEEA9CD7D77A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE1F4F39616206BABB5BAA93701F142 /* Pods-ZPAVPlayer_Example-dummy.m in Sources */,
+				87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */,
+				CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */,
+				457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */,
+				387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */,
+				8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */,
+				843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */,
+				011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */,
+				5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */,
+				FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */,
+				FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBB9A068E00692AFC8BBE1153D71C529 /* Sources */ = {
+		81819B969F863746E4F2DFF02C664CB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4990514D76C0FCACE799612EC927CE /* Pods-ZPAVPlayer_Tests-dummy.m in Sources */,
+				47E351C4EA28500600ADFE76CF3F5E4A /* ZPAVPlayer-dummy.m in Sources */,
+				0E25579B493C42B5B401582BE50A9932 /* ZPImageBtn.m in Sources */,
+				A174CACC3D55C47E06A7EAB96BCA678E /* ZPVideoController.m in Sources */,
+				8B462463D6A2E446907EF92517B41055 /* ZPVideoController2.m in Sources */,
+				1CA7CB10086DD4AF6CDE45D6C425AB76 /* ZPVideoErrorView.m in Sources */,
+				350CA1B21F4F24E5E1B1584044643A9E /* ZPVideoPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B903ACB27FCFCC113A83A3C0758CBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C109CCAD609602BB1DE63FF4838E86E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438A08D6F8DD528CAF5F73580806ABB4 /* Pods-ZPAVPlayer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2ED32E2C7E0D46BD1BE398D18E703810 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZPAVPlayer;
-			target = 3AC604F492BC121BEC4E3729DE83B893 /* ZPAVPlayer */;
-			targetProxy = 9063044DA4B0E2D277E6E0C587715F5D /* PBXContainerItemProxy */;
-		};
-		6237D65179C70C34D6FD46D02531E09E /* PBXTargetDependency */ = {
+		38F5AA7C3ACCE2D7FC1D77C2BF9519FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZPAVPlayer_Example";
 			target = 10C7E88FBBA8A032F3A06017E20087AB /* Pods-ZPAVPlayer_Example */;
-			targetProxy = AD8CBF97A06A468B4796CF1A23DA0D0D /* PBXContainerItemProxy */;
+			targetProxy = EBB58F24D2D9415D1242046AB8B567C2 /* PBXContainerItemProxy */;
+		};
+		41EE5728FCADD012C486307EAB14E8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = A6B2E9A9E5A57A556B5FFA0722A9888B /* PBXContainerItemProxy */;
+		};
+		5A5E741DADE2860C2DFD78ADE5D37887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZPAVPlayer-ZPAVPlayer";
+			target = 4812BF1E430244F5C1B168D60673AE04 /* ZPAVPlayer-ZPAVPlayer */;
+			targetProxy = 78DD529D8FEA1B5AEB9B17AE10CF5CE7 /* PBXContainerItemProxy */;
+		};
+		824CB581EE46D744068F32CF52896558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = CCB0DF9AF1926ECC69B6E7863A83C12F /* PBXContainerItemProxy */;
+		};
+		C19AD41C1978AB1672D61F2E13184AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPAVPlayer;
+			target = 3AC604F492BC121BEC4E3729DE83B893 /* ZPAVPlayer */;
+			targetProxy = CCE9790428449A0B613AE0C7BEB2928A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0645150205CDBE0ECCFEB53710779DA0 /* Release */ = {
+		02B21C21B6655B67469691F419D06352 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4434F52C80FEB5C4D7677F8FC25BF260 /* Pods-ZPAVPlayer_Tests.release.xcconfig */;
+			baseConfigurationReference = B7E9FBDA19FEF149AA0AE40B0B9916B2 /* Pods-ZPAVPlayer_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1FB371372A1A1FF921923E4593AB24EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2F8C301395F8E21DB1B65EA9928DFA /* ZPAVPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPAVPlayer/ZPAVPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZPAVPlayer;
+				PRODUCT_NAME = ZPAVPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -509,101 +806,153 @@
 			};
 			name = Debug;
 		};
-		337112F8AC3733509770A00D9C8E3E8D /* Release */ = {
+		2B8EB15CB4C15F6BA943EB2DA8EA6ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8346039CE408DA0C8B5E19861962842C /* Pods-ZPAVPlayer_Example.release.xcconfig */;
+			baseConfigurationReference = E4F672D083B0853C34EAB7B987DBC607 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		380F4C1CD25FC1CA1BE7BF46F25734A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EE22B56D0BF67C0E2567B1158652D5E /* Pods-ZPAVPlayer_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7393CEAAA50304F6F248DB19741FA4B8 /* Release */ = {
+		39CC4A5D9A748BFE9966E0FEF7E95884 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E6BB8CE938D0E9D04B302A693EEBD9 /* ZPAVPlayer.release.xcconfig */;
+			baseConfigurationReference = DF2F8C301395F8E21DB1B65EA9928DFA /* ZPAVPlayer.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZPAVPlayer";
+				IBSC_MODULE = ZPAVPlayer;
+				INFOPLIST_FILE = "Target Support Files/ZPAVPlayer/ResourceBundle-ZPAVPlayer-ZPAVPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ZPAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7628E77745F1D49AFC8EBD35E28DC1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPAVPlayer/ZPAVPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPAVPlayer/ZPAVPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPAVPlayer/ZPAVPlayer.modulemap";
-				PRODUCT_MODULE_NAME = ZPAVPlayer;
-				PRODUCT_NAME = ZPAVPlayer;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7EC38D07FC007CAA997AB5E881AEAF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC9D8B1ACD948C50008D5B893727395 /* Pods-ZPAVPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F7F8095CE57387BB10D84A13F944FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F95854A665D6DA4A826CD7909D78D9E /* ZPAVPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPAVPlayer/ZPAVPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZPAVPlayer;
+				PRODUCT_NAME = ZPAVPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FE171055A61729E46BFF6ADADC077B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD319F5FE0750C5F4CAA847BE55235A1 /* Pods-ZPAVPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02329919DD2F068C343CA81C9347FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -667,89 +1016,25 @@
 			};
 			name = Release;
 		};
-		D263C1A7D1BBB9638D1ECEA4FC271F15 /* Debug */ = {
+		F94F9156BCAC4CCE43AF0F3B22F5FA66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D549842BC0911418EB612E81C53A2AE9 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6F95854A665D6DA4A826CD7909D78D9E /* ZPAVPlayer.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZPAVPlayer";
+				IBSC_MODULE = ZPAVPlayer;
+				INFOPLIST_FILE = "Target Support Files/ZPAVPlayer/ResourceBundle-ZPAVPlayer-ZPAVPlayer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FD44A35E053AAE43B7DBCB6C1E37B551 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96E2495862F01C3723DDA2BF9789BFEB /* ZPAVPlayer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPAVPlayer/ZPAVPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPAVPlayer/ZPAVPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPAVPlayer/ZPAVPlayer.modulemap";
-				PRODUCT_MODULE_NAME = ZPAVPlayer;
 				PRODUCT_NAME = ZPAVPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C4FDFBE6DF158AAE3AFA4112FE436CD /* Build configuration list for PBXNativeTarget "ZPAVPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD44A35E053AAE43B7DBCB6C1E37B551 /* Debug */,
-				7393CEAAA50304F6F248DB19741FA4B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D61051EAAA735419CC83E6B620BA079 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				380F4C1CD25FC1CA1BE7BF46F25734A5 /* Debug */,
-				337112F8AC3733509770A00D9C8E3E8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,11 +1044,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86C21FA09233F10A26F1D650A6C28E42 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Tests" */ = {
+		4D32DF2BE94CA1F078509CFFE7F17010 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D263C1A7D1BBB9638D1ECEA4FC271F15 /* Debug */,
-				0645150205CDBE0ECCFEB53710779DA0 /* Release */,
+				2B8EB15CB4C15F6BA943EB2DA8EA6ADE /* Debug */,
+				02B21C21B6655B67469691F419D06352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6525CCFB5FEEBC36FDDE16A88CD85B83 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02329919DD2F068C343CA81C9347FA4 /* Debug */,
+				7628E77745F1D49AFC8EBD35E28DC1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718876DAD646A857EC42730CE3DAC992 /* Build configuration list for PBXNativeTarget "Pods-ZPAVPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC38D07FC007CAA997AB5E881AEAF27 /* Debug */,
+				B2FE171055A61729E46BFF6ADADC077B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A44943F011E64130B9DA1F8586BD29 /* Build configuration list for PBXNativeTarget "ZPAVPlayer-ZPAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CC4A5D9A748BFE9966E0FEF7E95884 /* Debug */,
+				F94F9156BCAC4CCE43AF0F3B22F5FA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3900E71A67E9C2AF5B75CF2600D018 /* Build configuration list for PBXNativeTarget "ZPAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB371372A1A1FF921923E4593AB24EC /* Debug */,
+				9F7F8095CE57387BB10D84A13F944FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

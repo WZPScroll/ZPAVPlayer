@@ -1,16 +1,24 @@
 PODS:
-  - ZPAVPlayer (0.1.0)
+  - Masonry (1.1.0)
+  - ZPAVPlayer (0.0.1):
+    - Masonry
 
 DEPENDENCIES:
+  - Masonry
   - ZPAVPlayer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   ZPAVPlayer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPAVPlayer: 923906cf8061fe73652a0ff262847f425c6954a3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZPAVPlayer: 2e262dfb538543030e998524fbe32c2def2abec9
 
-PODFILE CHECKSUM: 1ab2fb0b71640adac42d106d3b412bda96246047
+PODFILE CHECKSUM: 895f084e0b42b2cf4d6c4994736ae0c70f425a98
 
 COCOAPODS: 1.11.2
