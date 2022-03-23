@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		109664431584A3E6E91288D9 /* Pods-ZPAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		116E9404492E2E69F5EF12C6 /* ZPAVPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPAVPlayer.podspec; path = ../ZPAVPlayer.podspec; sourceTree = "<group>"; };
-		4409CDD699AA87717FB213B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		116E9404492E2E69F5EF12C6 /* ZPAVPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPAVPlayer.podspec; path = ../ZPAVPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4409CDD699AA87717FB213B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59BA599F698A2F12B2E38E2A /* Pods-ZPAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZPAVPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPAVPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B9AA602D5A1B4EFA98D9E5 /* Pods-ZPAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Example/Pods-ZPAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1DF9255B9D27CFD50363A5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A1DF9255B9D27CFD50363A5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A23E44FA838890943C6A6723 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPAVPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPAVPlayer_Tests/Pods-ZPAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B36416174AB2E2147E0B88C8 /* Pods_ZPAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPAVPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7BCA13194B80256BC7B4D4 /* Pods_ZPAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPAVPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				A23E44FA838890943C6A6723 /* Pods-ZPAVPlayer_Tests.debug.xcconfig */,
 				109664431584A3E6E91288D9 /* Pods-ZPAVPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Pods_ZPAVPlayer_Example {
+  umbrella header "Pods-ZPAVPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

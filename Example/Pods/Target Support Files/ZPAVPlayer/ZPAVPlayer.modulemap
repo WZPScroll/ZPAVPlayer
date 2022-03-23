@@ -1,0 +1,6 @@
+framework module ZPAVPlayer {
+  umbrella header "ZPAVPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
