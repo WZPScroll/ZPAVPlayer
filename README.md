@@ -17,7 +17,8 @@ ZPAVPlayer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZPAVPlayer'
+pod 'ZPAVPlayer','~> 0.0.2'
+
 ```
 
 ## Author
